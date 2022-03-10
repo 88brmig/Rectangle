@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rectangle</string>
+    <string name="label_width">Width</string>
+    <string name="label_height">Height</string>
+    <string name="label_area">Area</string>
+    <string name="button_ok">OK</string>
+</resources>

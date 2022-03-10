@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewWidth"
+        style="@style/style_text_view"
+        android:text="@string/label_width"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <EditText
+        android:id="@+id/editTextWidth"
+        style="@style/style_edit_text"
+        android:layout_below="@+id/textViewWidth"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/textViewHeight"
+        style="@style/style_text_view"
+        android:text="@string/label_height"
+        android:layout_below="@+id/editTextWidth"
+        />
+
+    <EditText
+        android:id="@+id/editTextHeight"
+        style="@style/style_edit_text"
+        android:layout_below="@+id/textViewHeight"
+        />
+
+    <TextView
+        android:id="@+id/textViewArea"
+        style="@style/style_text_view"
+        android:text="@string/label_area"
+        android:layout_below="@+id/editTextHeight"
+        />
+
+    <EditText
+        android:id="@+id/editTextArea"
+        style="@style/style_edit_text"
+        android:layout_below="@+id/textViewArea"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:text="@string/button_ok"
+        style="@style/style_button"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
